@@ -10,7 +10,7 @@ import uuid
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyCxrnvzO_lqOfh4UglbO3QvHjwttPxnE0k"))
 MODEL_NAME = "gemini-1.5-pro-001"
 
 # Function to extract text from PDF
